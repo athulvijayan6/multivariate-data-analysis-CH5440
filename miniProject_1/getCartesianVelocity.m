@@ -3,7 +3,7 @@
 
 function [ xDot, yDot, zDot ] = getCartesianVelocity( lat, lon, latDot, lonDot)
 majorAxis = 6378137;
-minorAxis = 6356752.314245
+minorAxis = 6356752.314245;
 e = sqrt(1-(minorAxis/majorAxis)^2);
 
 % (prime vertical radius of curvature)
